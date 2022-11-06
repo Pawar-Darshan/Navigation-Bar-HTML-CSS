@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(160deg, #1d6967 0%, #80D0C7 100%);
+}
+
+nav .logo p{
+    font-size: 30px;
+    font-weight: bpld;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav ul {
+    margin-right: 125px;
+    float : right
+}
+
+nav li {
+    display: inline-block;
+    list-style: none
+}
+
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color:rgb(147, 51, 51);
+    transition: all 0.4s ease 0s;
+}
+
+.content-item img{
+    width: 100%;
+    height: vh;
+    background-size: cover;
+    background-position: center;
+}
